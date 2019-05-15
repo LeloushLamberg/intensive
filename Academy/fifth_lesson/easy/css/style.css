@@ -1,5 +1,62 @@
 body{
-   background-image: url("../img/main-bgi.png"); 
+  background-image: url("../img/main-bgi.png"); 
   background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+div {
+  border: 0.5ex groove blueviolet;
+  margin: 2em;
+  padding: 5ex;
+  background-color:  rgba(193, 147, 224, 0.116);
+}
+.tableOfContents {
+  background-color:  rgba(224, 147, 224, 0.253);
+  border-radius: 5px;
+  width: 40%;
+}
+.description {
+  font-size: 20px;
+  }
+.one {
+  background-color:  rgba(147, 189, 224, 0.216);
+}
+.two {
+  background-color:  rgba(147, 224, 194, 0.216);
+}
+.three {
+  background-color:  rgba(201, 224, 147, 0.216);
+}
+.four {
+  background-color:  rgba(224, 147, 205, 0.216);
+}
+.five {
+  background-color:  rgba(224, 147, 147, 0.216);
+}
+.header {
+  text-align: center;
+}
+.main-image {
+  width: 100%;
+}
+.image {
+  width: 50%;
+}
+.emphasized { 
+  text-decoration: underline;
+}
+.bold { 
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+p {
 
+  width: 85%;
+}
+li {
+  font-size: 20pt;
+}
+.deleted {
+  text-decoration: line-through;
 }
