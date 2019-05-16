@@ -27,26 +27,35 @@ html{
   background-size: cover;
 }
 .tableOfContents {
-  overflow: hidden;
   right: 1%;
   top: 1%;
   position: fixed;
   margin: 2;
-  background-color:  rgba(179, 127, 214, 0.216);
-  width: 30%;
+  background-color:  rgba(127, 154, 214, 0.216);
+  width: 22%;
+}
+.tableOfContents:hover {
+  background-color: rgba(203, 240, 229, 0.88);
 }
 .content {
   padding-left: 10%;
   padding-right: 0;
-  font-size: 1px;
+  font-size: 25;
 }
-.tableOfContents .content {
-  transform: matrix(-10, 0, 0, -10, 0, 0)
+li {
+  list-style: none;
 }
-.tableOfContents .content:hover {
-  transform: matrix(1, 0, 0, 1, 0, 0);
-  transition: transform 200ms;
-  font-size: 14px;
+a{
+  color: rgba(17, 85, 85, 0.31)
+}
+a:visited {
+  color: rgba(1, 5, 59, 0.7);
+}
+a:active {
+  color: rgba(1, 5, 59, 0.7);
+} 
+a:hover {
+  color: rgba(1, 5, 59, 0.7);
 }
 h1 {
   color: rgba(179, 127, 214, 1)
