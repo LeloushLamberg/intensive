@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(139, 139, 139);
+}
+.card {
+  width: 1010px;
+  height: 503px;
+  background-color: #fff;
+}
+.image {
+  position: relative;
+  float: left;
+  margin-left: 47px;
+  margin-top: 64px;
+
+}
+.name{
+  margin-left: 522px;
+  margin-top: 94px;
+  width: 178px;
+  height: 21px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.description {
+  margin-left: 522px;
+  margin-top: 31px;
+  width: 400px;
+  height: 87px;
+  font-size: 16px;
+}
+.price {
+  margin-left: 522px;
+  margin-top: 18px;
+  width: 65px;
+  height: 19px;
+  font-size: 12px;
+}
+.price-tag {
+  margin-left: 522px;
+  margin-top: 18px;
+  width: 178px;
+  height: 48px;
+  font-size: 25px;
+}
+.into-the-basket {
+  margin-left: 526px;
+  margin-top: 18px;
+  padding-top: 1.25px;
+  width: 251px;
+  height: 50px;
+  background-color: rgb(236, 16, 34);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 16px;
+}
