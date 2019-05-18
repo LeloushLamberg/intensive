@@ -27,6 +27,7 @@ img {
   max-width: 100%;
 }
 aside {
+  display: inline-block;
   padding-top: 6.521%;
   padding-right: 5.55%;
   float: right;
@@ -34,25 +35,34 @@ aside {
   width: 40.396%;
 }
 .name {
+  display: inline-block;
   font-size: 1.125em;
   font-weight: bold;
 }
 
 .description {
+  display: inline-block;
   font-size: 1em;
 }
 
 .price {
+  display: inline-block;
   font-size: 0.75em;
 }
 
 .price-tag {
+  display: inline-block;
   font-size: 1.55em;
 }
 
 .into-the-basket {
+  display: inline-block;
   background-color: rgb(236, 16, 34);
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 1em;
+}
+p {
+  display: inline-block;
+  padding: 3%;
 }
