@@ -1,16 +1,26 @@
+html {
+  max-width: 1366px;
+}
+body{
+  background-color: #cc1717;
+}
 .conteiner {
   position: relative;
   overflow: hidden;
+  max-width: 1010px;
 }
 .image {
   float: left;
-  margin-left: 0.047em;
-  margin-top: 0.127em;
-  max-width: 360px;
+  margin-left: 4.7%;
+  margin-top: 12.7%;
+  max-width: 376px;
+}
+img {
+  max-width: 100%;
 }
 .aside {
   float: left;
-  margin-left: 0.096em;
-  margin-top: 0.187em;
-  max-width: 0.404em;
+  margin-left: 9.6%;
+  margin-top: 18.7%;
+  max-width: 408px;
 }
