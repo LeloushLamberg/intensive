@@ -8,19 +8,26 @@ body{
   position: relative;
   overflow: hidden;
   max-width: 1010px;
+  max-height: 503px;
+  width: 70%;
+  height: 70%;
+  border: solid 5px #0a0a0a;
+  margin-left: 15%;
+  margin-top: 15%;
+  background-color: rgb(43, 255, 0);
 }
 .image {
   float: left;
-  margin-left: 4.7%;
-  margin-top: 12.7%;
+  padding-left: 3.26%;
+  padding-top: 8.9%;
+  padding-bottom: 8.9%; 
   max-width: 376px;
 }
 img {
-  max-width: 100%;
+  max-width: 70%;
 }
 .aside {
   float: left;
   margin-left: 9.6%;
-  margin-top: 18.7%;
   max-width: 408px;
 }
