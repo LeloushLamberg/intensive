@@ -22,14 +22,16 @@ body{
   padding-top: 8.9%;
   padding-bottom: 8.9%; 
   max-width: 376px;
+  width: 37.228%;
 }
 img {
-  max-width: 70%;
+  max-width: 100%;
 }
-.aside {
-  float: left;
+aside {
+  float: right;
   padding-left: 9.6%;
   max-width: 408px;
+  width: 40.396%;
 }
 .name {
   font-size: 18px;
