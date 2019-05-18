@@ -28,40 +28,42 @@ img {
 }
 aside {
   display: inline-block;
-  /*padding-top: 6.521%;
-  padding-right: 5.55%;*/
+  padding-top: 6.521%;
+  padding-left: 10%;
   float: left;
-  max-width: 488px;
-  width: 48.316%;
+  max-width: 408px;
+  width: 40.316%;
 }
 .name {
-  display: inline-block;
   font-size: 1.125em;
   font-weight: bold;
 }
 
 .description {
-  display: inline-block;
+  padding-top: 6.16%;
+  padding-bottom: 6.66%;
+  height: 17.3%;
   font-size: 1em;
 }
 
 .price {
-  display: inline-block;
+  padding-top: 5%;
+  padding-bottom: 3.58%;
   font-size: 0.75em;
 }
 
 .price-tag {
-  display: inline-block;
+  padding-bottom: 1.55em;
   font-size: 1.55em;
 }
 
 .into-the-basket {
+  padding: 3.58%;
+  display: inline-block;
   background-color: rgb(236, 16, 34);
   color: rgb(255, 255, 255);
+  width: 61.76%;
+  max-height: 50px;
   text-align: center;
   font-size: 1em;
-}
-p {
-  display: inline-block;
-  padding: 3%;
 }
