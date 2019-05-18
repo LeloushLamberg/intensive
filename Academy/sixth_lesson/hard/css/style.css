@@ -1,0 +1,16 @@
+.conteiner {
+  position: relative;
+  overflow: hidden;
+}
+.image {
+  float: left;
+  margin-left: 0.047em;
+  margin-top: 0.127em;
+  max-width: 360px;
+}
+.aside {
+  float: left;
+  margin-left: 0.096em;
+  margin-top: 0.187em;
+  max-width: 0.404em;
+}
