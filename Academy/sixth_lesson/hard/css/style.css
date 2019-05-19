@@ -1,17 +1,17 @@
-html {
-  max-width: 1366px;
-}
 body{
   background-color: #cc1717;
 }
+.outer-wrapper {
+  display: table;
+}
 .conteiner {
+  display: table-cell;
   position: relative;
   overflow: hidden;
   max-width: 1010px;
-  max-height: 503px;
   width: 100%;
-  border: solid 5px #0a0a0a;
   margin: auto;
+  
   background-color: rgb(43, 255, 0);
 }
 .image {
@@ -47,18 +47,18 @@ aside {
 }
 
 .price {
-  padding-top: 5%;
-  padding-bottom: 3.58%;
+  padding-top: 10%;
+  padding-bottom: 5%;
   font-size: 0.75em;
 }
 
 .price-tag {
   padding-bottom: 1.55em;
-  font-size: 1.55em;
+  font-size: 1.6em;
 }
 
 .into-the-basket {
-  padding: 3.58%;
+  
   display: inline-block;
   background-color: rgb(236, 16, 34);
   color: rgb(255, 255, 255);
