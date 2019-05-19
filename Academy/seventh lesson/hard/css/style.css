@@ -2,7 +2,7 @@ html {
   max-width: 1366px;
 }
 body{ 
-  background-color: #f6f6f6;
+  background-color: #cc1717;
 }
 
 .container {
@@ -13,7 +13,7 @@ body{
   overflow: hidden;
   max-width: 1010px;
   width: 100%;
-  background-color: #ffffff;
+  background-color: rgb(43, 255, 0);
   transform: translate(-50%, -50%);
 }
 .image {
