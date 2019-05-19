@@ -1,18 +1,20 @@
-body{
+html {
+  max-width: 1366px;
+}
+body{ 
   background-color: #cc1717;
 }
-section {
-  display: table;
-}/*
-.conteiner {
-  display: table-cell;
-  position: relative;
+
+.container {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   overflow: hidden;
   max-width: 1010px;
   width: 100%;
-  margin: auto;
-  
   background-color: rgb(43, 255, 0);
+  transform: translate(-50%, -50%);
 }
 .image {
   display: inline-block;
@@ -47,14 +49,14 @@ aside {
 }
 
 .price {
-  padding-top: 10%;
-  padding-bottom: 5%;
+  padding-top: 5%;
+  padding-bottom: 3.58%;
   font-size: 0.75em;
 }
 
 .price-tag {
   padding-bottom: 1.55em;
-  font-size: 1.6em;
+  font-size: 1.55em;
 }
 
 .into-the-basket {
@@ -66,4 +68,4 @@ aside {
   max-height: 50px;
   text-align: center;
   font-size: 1em;
-}*/
+}
