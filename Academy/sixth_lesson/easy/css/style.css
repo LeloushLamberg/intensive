@@ -2,6 +2,7 @@ body {
   background-color: rgb(139, 139, 139);
 }
 .container {
+  padding-top: 50px;
   width: 1010px;
   background-color: #fff;
   margin: auto;
@@ -11,30 +12,33 @@ body {
   display: inline-block;
   vertical-align: top;
 }
-.name{
-  font-size: 18px;
-  font-weight: bold;
-}
 .description-table {
+  padding: 30px;
   width: 408px;
+  width: 50%;
   display: inline-block;
   vertical-align: top;
 }
+.name{
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
 .description {
- 
-  font-size: 16px;
+  padding: 20px;
+  font-size: 18px;
 }
 .price {
-  
+  padding: 0px 20px 0px 20px;
   font-size: 12px;
 }
 .price-tag {
-  
+  padding: 20px;
   font-size: 25px;
 }
 .into-the-basket {
-  padding-top: 1.25px;
-  background-color: rgb(236, 16, 34);
+  padding: 20px 50px 20px 50px;
+  background-color: #ec744a;
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 16px;
