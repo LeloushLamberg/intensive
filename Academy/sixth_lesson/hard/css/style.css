@@ -1,9 +1,9 @@
 body{
   background-color: #cc1717;
-}/*
-.outer-wrapper {
-  display: table;
 }
+section {
+  display: table;
+}/*
 .conteiner {
   display: table-cell;
   position: relative;
