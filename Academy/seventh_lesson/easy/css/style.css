@@ -1,0 +1,27 @@
+body {
+  max-width: 1920px;
+}
+header {
+
+color: #000000;
+font-family: "Proxima Nova";
+font-size: 36px;
+font-weight: 400;
+}
+img {
+  max-height: 210px;
+}
+.article-1 img {
+  max-width: 218px;
+}
+.buy button {
+  display: block;
+  border: 1px solid #23bac1;
+}
+.buy {
+  color: #23bac1;
+  font-family: "Proxima Nova";
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
