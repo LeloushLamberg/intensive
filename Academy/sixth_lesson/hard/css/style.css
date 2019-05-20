@@ -28,44 +28,49 @@ body{
 img {
   max-width: 100%;
 }
-aside {
+main {
   display: inline-block;
-  padding-top: 6.521%;
+  padding-top: 6%;
   padding-left: 10%;
   float: left;
   max-width: 408px;
   width: 40.316%;
 }
 .name {
+  display: block;
   font-size: 1.125em;
-  font-weight: bold;
+  margin-bottom: 1.5%;
 }
-
 .description {
+  display: block;
   padding-top: 6.16%;
   padding-bottom: 6.66%;
   height: 17.3%;
   font-size: 1em;
+  margin-bottom: 1.5%;
 }
 
 .price {
+  display: block;
   padding-top: 5%;
   padding-bottom: 3.58%;
   font-size: 0.75em;
+  margin-bottom: 1.5%;
 }
 
 .price-tag {
+  display: block; 
   padding-bottom: 1.55em;
-  font-size: 1.55em;
+  font-size: 1.8em;
+  margin-bottom: 1.5%;
 }
 
 .into-the-basket {
   
-  display: inline-block;
+  display: block;
   background-color: rgb(236, 16, 34);
   color: rgb(255, 255, 255);
-  width: 61.76%;
-  max-height: 50px;
+  padding: 3.18% 10% 3.18% 10%;
   text-align: center;
   font-size: 1em;
 }
