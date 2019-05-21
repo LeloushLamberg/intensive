@@ -8,8 +8,7 @@ body {
 
 .container {
   display: flex;
-  width: 100%;
-}
+ }
 
 
 
@@ -147,7 +146,8 @@ body {
 }
 
 .explanation {
-  
+  text-align: center;
+
   margin-bottom: 16px;
 }
 
@@ -157,22 +157,28 @@ body {
 }
 
 .photos {
+  max-width: 1140px;
   display: flex;
-  width: 100%;
+  
 }
 
 .article {
+
   width: 100%;
-  text-align: center;
+  justify-content: center;
   color: #333333;
   font-family: Tahoma;
   font-size: 30px;
   font-weight: 700;
   line-height: 27px;
 }
-
+.buy div {
+  justify-content: flex-end;
+}
 .buyers {
+  
   flex-direction: column;
+  
   padding: 113px;
 }
 
@@ -183,4 +189,5 @@ body {
 .images img {
   max-width: 261px;
   max-height: 261px;
+  margin-bottom: 40px;
 }
