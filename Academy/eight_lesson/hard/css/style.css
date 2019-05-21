@@ -1,0 +1,180 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+}
+
+.image {
+  max-width: 404px;
+  padding: 4.813rem 4.688rem 6.001rem 7.688rem;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  padding-right: 14.875rem;
+
+}
+
+.name {
+  padding-top: 137px;
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 0.938rem;
+  ;
+}
+
+.about {
+  padding-bottom: 20px;
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 0.938rem;
+}
+
+.description {
+  max-width: 526px;
+  padding-bottom: 32px;
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 0.938rem;
+}
+
+.price {
+  padding-bottom: 60px;
+  color: #313131;
+  font-family: Tahoma;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 0.938rem;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buy {
+  padding: 1.375rem 2.625rem 1.375rem 2.875rem;
+  margin-right: 2.5em;
+  border-radius: 5px;
+  background-color: #f05a22;
+  color: #ffffff;
+  font-family: Tahoma;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.more {
+  padding: 1.375rem 1.875em 1.375rem 1.875em;
+  border-radius: 5px;
+  border: 2px solid #f05a22;
+  background-color: #ffffff;
+  color: #f05a22;
+  font-family: Tahoma;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.delivery {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.card {}
+
+.payment-unit {
+  padding-top: 58px;
+  padding-bottom: 58px;
+  margin: 31px;
+  text-align: center;
+  color: #333333;
+  font-family: Tahoma;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.icons {
+  display: flex;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  max-width: 241px;
+  max-height: 102px;
+  justify-content: center;
+  color: #333333;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 87px;
+  padding: 3px;
+}
+
+.explanation {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.icon img {
+  margin-bottom: 16px;
+}
+
+.photos {
+  max-width: 1140px;
+  display: flex;
+
+}
+
+.article {
+  width: 100%;
+  justify-content: center;
+  color: #333333;
+  font-family: Tahoma;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 69px;
+}
+
+.buy div {
+  justify-content: flex-end;
+}
+
+.buyers {
+  flex-direction: column;
+  padding: 113px;
+}
+
+.images {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.images img {
+  max-width: 261px;
+  max-height: 261px;
+  margin-bottom: 40px;
+}
