@@ -8,9 +8,7 @@ body {
 
 .container {
   display: flex;
- }
-
-
+}
 
 .image {
   max-width: 404px;
@@ -24,9 +22,7 @@ body {
 
 }
 
-
 .name {
-
   padding-top: 137px;
   color: #000000;
   font-family: Tahoma;
@@ -95,35 +91,28 @@ body {
 }
 
 .delivery {
-  
   display: flex;
   flex-direction: column;
   background-color: #f2f2f2;
   width: 100%;
 }
 
-.card {
-  
-}
+.card {}
 
 .payment-unit {
   padding-top: 58px;
   padding-bottom: 58px;
   margin: 31px;
-  
   text-align: center;
   color: #333333;
   font-family: Tahoma;
   font-size: 30px;
   font-weight: 700;
   line-height: 27px;
-
 }
 
 .icons {
   display: flex;
-  
-  padding: auto;
   display: flex;
   justify-content: space-around;
 
@@ -132,7 +121,6 @@ body {
 .icon {
   display: flex;
   flex-direction: column;
-  
   max-width: 241px;
   max-height: 102px;
   justify-content: center;
@@ -147,23 +135,20 @@ body {
 
 .explanation {
   text-align: center;
-
   margin-bottom: 16px;
 }
 
 .icon img {
-  
   margin-bottom: 16px;
 }
 
 .photos {
   max-width: 1140px;
   display: flex;
-  
+
 }
 
 .article {
-
   width: 100%;
   justify-content: center;
   color: #333333;
@@ -171,14 +156,15 @@ body {
   font-size: 30px;
   font-weight: 700;
   line-height: 27px;
+  margin-bottom: 69px;
 }
+
 .buy div {
   justify-content: flex-end;
 }
+
 .buyers {
-  
   flex-direction: column;
-  
   padding: 113px;
 }
 
@@ -186,6 +172,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .images img {
   max-width: 261px;
   max-height: 261px;
