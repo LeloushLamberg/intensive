@@ -1,5 +1,6 @@
 body {
   background-image: url("/src/img/fon3.jpg");
+  background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
   width: 95%;
