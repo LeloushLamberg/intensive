@@ -3,7 +3,15 @@ body {
   background-color: #f9f9f9;
   width: 100%;
 }
-header {
+
+ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  justify-content: space-around;
+}
+
+h1 {
   padding: 6.250rem 0em 6.250rem 0rem;
   width: 100%;
   margin: auto;
@@ -13,25 +21,32 @@ header {
   font-weight: 400;
   text-align: center;
 }
-main {
+
+h1 {
   display: flex;
   justify-content: center;
-  
+
 }
+
 .container {
   display: flex;
   flex-direction: column;
-  padding-left: 1.438rem;
-  padding-right: 1.438rem;
-  
+  align-items: center;
 }
-img {
-  padding: 0rem 1.313rem 0rem 1.313rem;
-  max-height: 210px;
-  height: 100%;
-  margin-bottom: 1.563rem;
+
+div.image {
+  display: flex;
+  width: 263px;
+  height: 210px;
   background-color: #ffffff;
+  justify-content: center;
+  margin-bottom: 25px;
 }
+
+li {
+  list-style-type: none;
+}
+
 
 .name {
   display: block;
@@ -39,24 +54,24 @@ img {
   font-family: "Proxima Nova";
   font-size: 16px;
   font-weight: 300;
-  text-align: center;
-  margin-bottom: 1.563rem;
+  margin-bottom: 25px;
 }
+
 .price {
   display: block;
   color: #000000;
   font-family: "Proxima Nova";
   font-size: 18px;
   font-weight: 700;
-  text-align: center;
-  margin-bottom: 1.563rem;
+margin-bottom: 25px;
 }
+
 .buy button {
   display: inline-block;
   border: 1px solid #23bac1;
-  text-align: center;
-  margin-bottom: 1.563rem;
+
 }
+
 .buy {
   padding: 1.438rem 4.625rem 1.438rem 4.625rem;
   color: #23bac1;
