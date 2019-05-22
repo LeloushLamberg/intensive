@@ -5,9 +5,12 @@
 body {
   font-family: sans-serif;
 }
+
 .hero {
   padding-top: 74px;
   padding-bottom: 155px;
+  background-color: #f4f5f7;
+ 
 }
 
 .container {
@@ -20,6 +23,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 159px;
 }
 
 .logo {
@@ -28,55 +32,90 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
- .social a {
-   text-decoration: none;
-   padding: 20px;
+a {
+  text-decoration: none;}
+.social a {
+  padding: 20px;
 
- }
- .main {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- }
- .main-text {
-   width: 50%;
- }
- .subtitul {
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+}
+
+.subtitul {
+  display: block;
   color: #32325f;
   font-size: 20px;
   font-weight: 400;
- }
- .titul {
+  margin-bottom: 15px;
+}
+
+.titul {
+  display: block;
   color: #32325f;
   font-size: 48px;
   font-weight: 700;
- }
- .description {
+  margin-bottom: 26px;
+}
+
+.description {
   color: #32325f;
   font-size: 20px;
   font-weight: 400;
   line-height: 26px;
- }
- .price-tag {
+  margin-bottom: 16px;
+}
+
+.price-tag {
+  display: block;
   color: #32325f;
   font-size: 20px;
   font-weight: 400;
- }
- .price {
+ 
+}
+
+.price {
+  display: block;
   color: #525f7f;
   font-size: 48px;
   font-weight: 400;
- }
- .buttons {
-  
- }
- .btn1 {
-color: #ffffff;
-  font-size: 20px;
-  font-weight: 700;
- }
- .btn2 {
+  margin-bottom: 40px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+border-radius: 6px;
+}
+
+.btn {
+  box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+  border-radius: 6px;
   color: #ffffff;
   font-size: 20px;
   font-weight: 700;
- }
+  padding: 20px 30px 20px 30px;
+  background-color: grey;
+}
+
+.buy {
+  background-color: #2dce89;
+  
+   
+}
+.hear {
+  background-color: #5e72e4;
+  padding: 20px 35px 20px 35px;
+  margin-right: 61px;
+}
