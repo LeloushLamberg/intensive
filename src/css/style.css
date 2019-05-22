@@ -13,9 +13,15 @@ img {
 }
 
 section {
+  max-width: 1140px;
+}
+
+
+.buttons {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  max-width: 1140px;
-
+}
+.button {
+  padding: 100px;
 }
