@@ -4,6 +4,7 @@
 
 body {
   font-family: sans-serif;
+  
 }
 
 .hero {
@@ -55,7 +56,7 @@ a {
 
 }
 
-.subtitul {
+.subtitle {
   display: block;
   color: #32325f;
   font-size: 20px;
@@ -63,7 +64,7 @@ a {
   margin-bottom: 15px;
 }
 
-.titul {
+.title {
   display: block;
   color: #32325f;
   font-size: 48px;
@@ -126,18 +127,15 @@ a {
   background-color: #32325f;
 }
 
-.section {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.about, .people {
   padding-top: 78px;
   padding-bottom: 104px;
 }
-.box {
-  width: 30%;
-  margin-right: 3%;
+
+.footer-heading {
+ 
 }
-.section-heading+.box {
+.footer-heading {
   color: #ffffff;
   font-size: 24px;
   font-weight: 700;
@@ -149,4 +147,33 @@ a {
   color: #ffffff;
   font-size: 16px;
   font-weight: 700;
+}
+.box {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box-features li {
+  width: 23%;
+  margin-right: 2%;
+}
+.box-people {
+  /* justify-content: flex-start; */
+}
+.photos {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.photos:last-child {
+  margin-right: 0;
+}
+.photos:nth-child(3n) {
+  margin: 0;
+}
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
