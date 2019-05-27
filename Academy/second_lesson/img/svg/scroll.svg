@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW 2018 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="15mm" height="20mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1500 2000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#3F5F7F;stroke-width:25;stroke-linejoin:bevel;stroke-miterlimit:22.9256}
+    .fil2 {fill:none}
+    .fil0 {fill:#3F5F7F}
+    .fil1 {fill:#D6D6D6}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M749.95 1080.38l-77.62 92.74 156.05 0z"/>
+    </clipPath>
+    <clipPath id="id1">
+     <path d="M775.74 1261.64l-50.25 0 0 73.75 50.25 0z"/>
+    </clipPath>
+    <clipPath id="id2">
+     <path d="M829.78 1421.82l-156.05 0 77.62 92.74z"/>
+    </clipPath>
+    <clipPath id="id3">
+     <path d="M809.33 502.53l-121.84 0.44 0.92 253.47 120.92 -10.94z"/>
+    </clipPath>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+   <path class="fil0" d="M749.95 1080.38l-77.62 92.74 156.05 0z"/>
+   <g style="clip-path:url(#id0)">
+   </g>
+  </g>
+  <g>
+   <path class="fil0" d="M775.74 1261.64l-50.25 0 0 73.75 50.25 0z"/>
+   <g style="clip-path:url(#id1)">
+   </g>
+  </g>
+  <g>
+   <path class="fil0" d="M829.78 1421.82l-156.05 0 77.62 92.74z"/>
+   <g style="clip-path:url(#id2)">
+   </g>
+  </g>
+  <g>
+   <path class="fil1" d="M809.33 502.53l-121.84 0.44 0.92 253.47 120.92 -10.94z"/>
+   <g style="clip-path:url(#id3)">
+   </g>
+  </g>
+  <path class="fil2 str0" d="M1172.83 1366.54l-2.43 -734.48c0,-150.63 -80.36,-289.81 -210.81,-365.13 -130.44,-75.31 -291.16,-75.31 -421.61,0 -130.45,75.32 -210.81,214.5 -210.81,365.13l2.43 735.88c0,150.63 80.36,289.81 210.81,365.13 130.44,75.31 291.16,75.31 421.61,0 130.45,-75.32 210.81,-214.5 210.81,-365.13"/>
+ </g>
+</svg>
