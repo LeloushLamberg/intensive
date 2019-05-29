@@ -1,13 +1,12 @@
-body {
-  
-}
+body {}
+
 .why-now {
   padding: 70px;
   color: #333333;
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
-  
+
 }
 
 .signature {
@@ -15,5 +14,15 @@ body {
   font-size: 16px;
   font-weight: 700;
   text-align: center;
-  
+
+}
+
+.box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  min-width: 70px;
 }
