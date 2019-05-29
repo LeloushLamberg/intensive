@@ -1,0 +1,49 @@
+body {
+  min-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.tooltip span {
+  /* border-radius: 5px 5px 5px 5px; */
+  visibility: hidden;
+  position: fixed;
+  right: 40px;
+  background: #fff;
+  /* box-shadow: -2px 2px 10px -1px #333; */
+  /* border-radius: 5px; */
+}
+
+.tooltip:hover span {
+  visibility: visible;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.lulu {
+  max-width: 150px;
+}
+
+.greeting {
+  display: inline-block;
+  vertical-align: middle;
+  color: #4f7c84;
+  font-family: "Myriad Pro";
+  font-size: 3.75rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #72afba;
+}
+
+.purpur {
+  color: #a5545c;
+  letter-spacing: 0.5px;
+  text-decoration: underline;
+}
+
+.aqua {
+  color: #2b7d85;
+  letter-spacing: 0.5px;
+}
