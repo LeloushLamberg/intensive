@@ -1,11 +1,15 @@
 .navbar-brand {
   color: #95989a;
 }
+
 .social a {
-  padding: 20px;
+  padding: 10px;
 
 }
 
+.books {
+  padding-left: 25px;
+}
 .subtitle {
 
   color: #32325f;
