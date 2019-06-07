@@ -1,5 +1,7 @@
-.navbar-brand {
+.text-color {
   color: #95989a;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .social a {
