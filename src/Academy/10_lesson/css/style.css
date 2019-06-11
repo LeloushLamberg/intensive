@@ -1,8 +1,17 @@
+.text-color {
+  color: #95989a;
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .social a {
-  padding: 20px;
+  padding: 10px;
 
 }
 
+.books {
+  padding-left: 25px;
+}
 .subtitle {
 
   color: #32325f;
@@ -43,6 +52,7 @@
   font-weight: 400;
 
 }
+
 .footer {
   background-color: #32325f;
 }
@@ -55,4 +65,28 @@
 .footer-text {
   font-size: 16px;
   font-weight: 700;
+}
+
+.buy {
+  width: 214px;
+  height: 66px;
+  box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+  border-radius: 6px;
+  background-color: #2dce89;
+
+}
+
+.button {
+  color: #ffffff;
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.hear {
+  width: 250px;
+  height: 66px;
+  box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+  border-radius: 6px;
+  background-color: #5e72e4;
 }
